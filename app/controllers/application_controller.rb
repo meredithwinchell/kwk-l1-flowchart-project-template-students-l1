@@ -20,7 +20,7 @@ Movies = {
 
 
       drama: {
-        true: ['The Blind Side', 'Into the Wild', 'Schlinders List', 'Raging Bull',
+        true: ['The Blind Side', 'Into the Wild', 'Schindlers List', 'Raging Bull',
           'Straight Outta Compton', 'Lion'],
         crime: ['Oceans series', 'Heathers', 'Antibodies', 'Murder in the First',
           'Knockin on Heavens Door', 'The Godfather', 'Shawkshank Redemption',
@@ -147,8 +147,8 @@ class ApplicationController < Sinatra::Base
     erb :adultromance
   end
 =end
-  post '/adult/1' do
-    "My selection was #{Movies[:genre][:romance][:romcom]}."
+  post '/adult/1/romance' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
     #erb :adultromance
   end
 
