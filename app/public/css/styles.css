@@ -1,0 +1,17 @@
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Luminari', fantasy;
+    font-size: 300%;
+}
+
+p {color: gold;
+    font-family: Luminari, fantasy;
+    font-size: 100%;
+  }
+
+li {color: light red;
+        font-family: Luminari, fantasy;
+        font-size: 200%;}
