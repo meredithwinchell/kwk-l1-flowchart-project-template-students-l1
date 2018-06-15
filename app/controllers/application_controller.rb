@@ -232,7 +232,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/superhero' do
-    "You chose Superhero Action Movies. Here are some options. #{Movies[:genre][:action][:superhero]}."
+    "You chose Superhero action Movies. Here are some options. #{Movies[:genre][:action][:superhero]}."
   end
 =begin
   post '/superhero' do
