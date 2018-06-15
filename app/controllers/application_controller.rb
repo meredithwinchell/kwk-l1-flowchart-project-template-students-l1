@@ -180,75 +180,75 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/mysterydrama' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:drama][:mysterydrama]}."
   end
 
   post '/allhorror' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:horror].values}."
   end
 
   post '/psychhorror' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:horror][:psychhorror]}."
   end
 
   post '/superhorror' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:horror][:superhorror]}."
   end
 
   post '/realhorror' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:horror][:realhorror]}."
   end
 
   post '/actionhorror' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:horror][:actionhorror]}."
   end
 
   post '/slasher' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:horror][:slasher]}."
   end
 
   post '/fantasy' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:fantasy].values}."
   end
 
   post '/documentary' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:documentary].values}."
   end
 
   post '/comedy' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:comedy].values}."
   end
 
   post '/allaction' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:action].values}."
   end
 
   post '/govwaraction' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:action][:govwaraction]}."
   end
 
   post '/crimeaction' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:action][:crimeaction]}."
   end
 
   post '/superhero' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:action][:superhero]}."
   end
-
+=begin
   post '/superhero' do
     "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
   end
-
+=end
   post '/throwback' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:throwback].values}."
   end
 
   post '/sport' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:sport].values}."
   end
 
   post '/sad' do
-    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+    "You chose romance. Here are some options. #{Movies[:genre][:sad].values}."
   end
 
 
