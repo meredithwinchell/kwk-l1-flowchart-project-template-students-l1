@@ -147,14 +147,42 @@ class ApplicationController < Sinatra::Base
     erb :adultromance
   end
 =end
-  post '/adult/1/romance' do
+  post '/allromance' do
     "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
-    #erb :adultromance
+  end
+
+  post '/allromance' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/allromance' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/allromance' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/allromance' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/allromance' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/allromance' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/allromance' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+  
+  post '/allromance' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
   end
 
 
-  post '/adult/romance' do
-    erb :adultdrama
-  end
 
 end
