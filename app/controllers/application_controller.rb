@@ -151,37 +151,106 @@ class ApplicationController < Sinatra::Base
     "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
   end
 
-  post '/allromance' do
+  post '/romcom' do
     "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
   end
 
-  post '/allromance' do
+  post '/romdrama' do
     "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
   end
 
-  post '/allromance' do
+  post '/alldrama' do
     "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
   end
 
-  post '/allromance' do
+  post '/truedrama' do
     "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
   end
 
-  post '/allromance' do
+  post '/crimedrama' do
     "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
   end
 
-  post '/allromance' do
+  post '/militarydrama' do
     "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
   end
 
-  post '/allromance' do
+  post '/historicaldrama' do
     "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
   end
-  
-  post '/allromance' do
+
+  post '/mysterydrama' do
     "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
   end
+
+  post '/allhorror' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/psychhorror' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/superhorror' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/realhorror' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/actionhorror' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/slasher' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/fantasy' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/documentary' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/comedy' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/allaction' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/govwaraction' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/crimeaction' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/superhero' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/superhero' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/throwback' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/sport' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
+  post '/sad' do
+    "You chose romance. Here are some options. #{Movies[:genre][:romance][:romcom]}."
+  end
+
 
 
 
