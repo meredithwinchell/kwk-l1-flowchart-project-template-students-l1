@@ -1,67 +1,178 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Movie Generator</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+    <main role="main" class="container">
+      <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <title>MOVIE GENERATOR</title>
+  <style>
+  form {
+    color:blue;
+  }
+  body {
+    background-image: url('https://files.slack.com/files-pri/TB200QLDV-FB8J1P221/photo_on_6-11-18_at_3.25_pm.jpg');
+    background-size: cover;
+  }
+  </style>
 </head>
 
 <body>
-  <h1>PICK A GENRE YOU ARE IN THE MOOD FOR...</h1>
 
-  <form method="POST" action="/adult/1/romance">
-    <h2>Pick one:</h2>
 
-      <li>
-        Romance
-      </li>
+
+<h1>PICK A GENRE YOU ARE IN THE MOOD FOR...</h1>
+  <h2>Pick one:</h2>
+
+  <form method="POST" action="/allromance">
+        All Romance
       <input type="submit">
-</form>
-      <li>
-        Drama
-      </li>
+  </form>
 
-      <li>
-        Horror
+  <form method="POST" action="/romcom">
+        Romantic Comedy
+      <input type="submit">
+  </form>
 
-      </li>
+  <form method="POST" action="/romdrama">
+        Romantic Drama
+      <input type="submit">
+  </form>
 
-      <li>
-        Fantasy
+  <form method="POST" action="/alldrama">
+        All Drama
+      <input type="submit">
+  </form>
 
-      </li>
+  <form method="POST" action="/truedrama">
+        True Dramas
+      <input type="submit">
+  </form>
 
-      <li>
-        Documentary
+  <form method="POST" action="/crimedrama">
+        Crime Dramas
+      <input type="submit">
+  </form>
 
-      </li>
+  <form method="POST" action="/militarydrama">
+        Military Dramas
+      <input type="submit">
+  </form>
 
-      <li>
-        Comedy
+  <form method="POST" action="/historicaldrama">
+        Historical Dramas
+      <input type="submit">
+  </form>
 
-      </li>
+  <form method="POST" action="/mysterydrama">
+        Mystery Dramas
+      <input type="submit">
+  </form>
 
-      <li>
-        Action/Adventure
+  <form method="POST" action="/allhorror">
+        All Horror
+      <input type="submit">
+  </form>
 
-      </li>
+  <form method="POST" action="/psychhorror">
+        Psych Horror
+      <input type="submit">
+  </form>
 
-      <li>
-        Throwback
+  <form method="POST" action="/superhorror">
+        Supernatural Horror
+      <input type="submit">
+  </form>
 
-      </li>
+  <form method="POST" action="/realhorror">
+        Real Horror
+      <input type="submit">
+  </form>
 
-      <li>
-        Sport
+  <form method="POST" action="/actionhorror">
+        Action Horror
+      <input type="submit">
+  </form>
 
-      </li>
+  <form method="POST" action="/slasher">
+        Slasher Movies
+      <input type="submit">
+  </form>
 
-      <li>
-        Sad
-      </li>
+  <form method="POST" action="/fantasy">
+        Fantasy Movies
+      <input type="submit">
+  </form>
 
+  <form method="POST" action="/documentary">
+        Documentaries
+      <input type="submit">
+  </form>
 
-    <!-- <input input type="text" genre = "text">
-    <input type="submit">
-  </form> -->
+  <form method="POST" action="/comedy">
+        Comedies
+      <input type="submit">
+  </form>
 
+  <form method="POST" action="/allaction">
+        All Action
+      <input type="submit">
+  </form>
+
+  <form method="POST" action="/govwaraction">
+        Government/War Action Movies
+      <input type="submit">
+  </form>
+
+  <form method="POST" action="/crimeaction">
+        Crime Action
+      <input type="submit">
+  </form>
+
+  <form method="POST" action="/superhero">
+        Superhero Action Movies
+      <input type="submit">
+  </form>
+
+  <form method="POST" action="/superhero">
+        Superhero Action Movies
+      <input type="submit">
+  </form>
+
+  <form method="POST" action="/throwback">
+        Throwback Movies
+      <input type="submit">
+  </form>
+
+  <form method="POST" action="/sport">
+        Sport Movies
+      <input type="submit">
+  </form>
+
+  <form method="POST" action="/sad">
+        Sad Movies
+      <input type="submit">
+  </form>
+      <iframe width="0" height="0" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294540913&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true&auto_play=true&start_track=1"></iframe>
 </body>
+
+    </main>
+  </body>
+</html>
